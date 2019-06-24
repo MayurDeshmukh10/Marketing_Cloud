@@ -141,8 +141,7 @@ public class getTransactionalInfo {
     {
         getTransactionalInfo t = new getTransactionalInfo();
         ETClient client = new ETClient();
-        String id=client.getClientId();
-        System.out.println("Client ID"+id);
+
         //t.getAllSummary(client);
         //t.getAllResultMessage(client);
         //t.getAllSubscriberList(client);
